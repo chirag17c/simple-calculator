@@ -32,6 +32,9 @@ int main() {
     //calling the function diff() and displaying the output
     std::cout<<"\nDIFFERENCE = "<<diff(a,b);
 
+    //calling the function product() and displaying the output
+    std::cout<<"\nPRODUCT = "<<product(a,b);
+
     return 0;
 
 }
