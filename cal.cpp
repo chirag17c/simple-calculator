@@ -1,13 +1,18 @@
 #include<iostream>
 
-//returns sum of integers x and y
+//returns the sum of integers x and y
 int add(int x, int y) {
     return x+y;
 }
 
-//returns difference of integers x and y, i.e., (x-y)
+//returns the difference of integers x and y, i.e., (x-y)
 int diff(int x, int y) {
     return x-y;
+}
+
+//returns the product of integers x and y
+int product(int x, int y) {
+    return x*y;
 }
 
 int main() {
@@ -26,6 +31,9 @@ int main() {
 
     //calling the function diff() and displaying the output
     std::cout<<"\nDIFFERENCE = "<<diff(a,b);
+
+    //calling the function product() and displaying the output
+    std::cout<<"\nPRODUCT = "<<product(a,b);
 
     return 0;
 
