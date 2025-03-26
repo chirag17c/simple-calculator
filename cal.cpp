@@ -15,6 +15,11 @@ int product(int x, int y) {
     return x*y;
 }
 
+//returns the quotient when integer x is divided by integer y
+int divide(int x, int y) {
+    return x/y;
+}
+
 int main() {
 
     //declaring an initialising two variables a and b with 0
@@ -34,6 +39,9 @@ int main() {
 
     //calling the function product() and displaying the output
     std::cout<<"\nPRODUCT = "<<product(a,b);
+
+    //calling the function divide() and displaying the output
+    std::cout<<"\nQUOTIENT = "<<divide(a,b);
 
     return 0;
 
